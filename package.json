@@ -1,0 +1,19 @@
+{
+  "name": "portal-backend",
+  "version": "1.0.0",
+  "description": "PostgreSQL Backend for Portal",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "setup-db": "node db/setup_db.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemailer": "^10.5.0",
+    "pg": "^8.11.5"
+  }
+}
