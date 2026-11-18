@@ -6,3 +6,4 @@ Thumbs.db
 venv/
 *.log
 .vscode/
+db/*backup*.sql
